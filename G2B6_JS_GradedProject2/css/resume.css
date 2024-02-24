@@ -1,0 +1,100 @@
+#main {
+    margin: 1% 4% 1% 4%;
+}
+
+#block1 {
+    margin-bottom: 1%;
+}
+
+#block1 > input {
+    width: 20%;
+    margin: 0 20% 0 20%;
+    height: 2rem;
+}
+
+.btn {
+    width: 8%;
+    margin: 0 5% 0 5%;
+}
+
+#resumeTemplate {
+    margin-top: 2%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 15px 2px black;
+    overflow: auto;
+}
+
+#header {
+    background-color: #b3ecf1;
+}
+
+#header1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+}
+
+#header2 {
+    display: inline-block;
+    margin-left: 25%;
+}
+
+#header2 > img {
+    margin-left: 60%;
+    margin-top: 3%;
+    height: 10%;
+    width: 20%;
+}
+
+#body {
+    margin: 2% 2% 2% 2%;
+}
+
+#body1 {
+    display: inline-block;
+    background-color: lightpink;
+    padding: 1% 1% 1% 1%;
+    width: 17%;
+}
+
+#body2 {
+    float: right;
+    padding: 0 1% 0 1%;
+    width: 79%;
+}
+
+.part > h3 {
+    background-color: gray;
+}
+
+.part > p {
+    text-align: right;
+}
+
+.content > p {
+    padding-left: 5%;
+}
+
+#noSearch {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#noSearchIn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 2px #888888;
+    display: none;
+}
+
+#noSearchImg {
+    width: 20%;
+    height: 20%;
+}
+
+#noSearchMsg {
+    float: right;
+    font-size: 25px;
+}

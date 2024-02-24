@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Resume Template</title>
+    <link type='text/css' rel="stylesheet" href='./css/resume.css'/>
+</head>
+
+<body>
+<div id="main">
+
+    <div id="block1">
+        <button class='btn' id='previousBtn'>Previous</button>
+        <label for='search'></label><input type='search' name='search' id='search'
+                                           placeholder='search for keywords to filter resume'/>
+        <button class='btn' id='nextBtn'>Next</button>
+    </div>
+
+    <div id="block2">
+
+        <div id='noSearch'>
+            <div id="noSearchIn">
+                <img src="./assets/images/emoji.jpeg" alt="emoji" id='noSearchImg'/>
+                <p id="noSearchMsg">
+                    <b>Invalid search/No applications for this job</b>
+                </p>
+            </div>
+        </div>
+
+        <div id='resumeTemplate'>
+            <div id="header">
+                <div id='header1'>
+                    <h1 id='empName'></h1>
+                    <p id='role'></p>
+                </div>
+                <div id='header2'>
+                    <img src='./assets/images/avatar.png' alt='avatar'/>
+                </div>
+            </div>
+            <div id="body">
+                <div id="body1">
+                    <div class='part'>
+                        <h3>Personal Information</h3>
+                        <p id='phone'></p>
+                        <p id='email'></p>
+                        <p id='linkedin'></p>
+                    </div>
+                    <div class='part'>
+                        <h3>Technical Skills</h3>
+                        <p id='techSkills'></p>
+                    </div>
+                    <div class='part'>
+                        <h3>Hobbies</h3>
+                        <p id='hobbies'></p>
+                    </div>
+                </div>
+                <div id="body2">
+                    <div class="content">
+                        <h2>Work Experience in previous company</h2>
+                        <p id='preCom'></p>
+                        <p id='prePos'></p>
+                        <p id="preStartDate"></p>
+                        <p id='preEndDate'></p>
+                        <p id="preSummary"></p>
+                    </div>
+                    <div class="content">
+                        <h2>Projects</h2>
+                        <p id='projects'></p>
+                    </div>
+                    <div class="content">
+                        <h2>Education</h2>
+                        <p id='eduUG'></p>
+                        <p id='eduPU'></p>
+                        <p id='eduHigh'></p>
+                    </div>
+                    <div class="content">
+                        <h2>Internship</h2>
+                        <p id='intCom'></p>
+                        <p id='intPos'></p>
+                        <p id="intStartDate"></p>
+                        <p id='intEndDate'></p>
+                        <p id="intSummary"></p>
+                    </div>
+                    <div class="content" id='achievements'>
+                        <h2>Achievements</h2>
+                        <p id="achievement"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src='./assets/data/data.js'></script>
+<script src="./js/resume.js"></script>
+<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
